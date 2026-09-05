@@ -533,4 +533,121 @@ footer p {
 .table-scroll .details-table td {
     white-space: nowrap;
 }
+/* WHATSAPP DEMO BUTTONS */
+
+.whatsapp-chat,
+.whatsapp-group {
+    position: fixed;
+    z-index: 9999;
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    background: #20c978;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+
+    cursor: pointer;
+}
+
+.whatsapp-chat {
+    left: 20px;
+    bottom: 25px;
+}
+
+.whatsapp-group {
+    right: 20px;
+    bottom: 25px;
+}
+
+.whatsapp-chat i,
+.whatsapp-group i {
+    font-size: 45px;
+}
+
+.group-small {
+    position: absolute;
+
+    top: 8px;
+    right: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .whatsapp-chat,
+    .whatsapp-group {
+        width: 65px;
+        height: 65px;
+    }
+
+    .whatsapp-chat {
+        left: 15px;
+        bottom: 20px;
+    }
+
+    .whatsapp-group {
+        right: 15px;
+        bottom: 20px;
+    }
+
+    .whatsapp-chat i,
+    .whatsapp-group i {
+        font-size: 36px;
+    }
+}
+/* WHATSAPP BUTTONS */
+
+.whatsapp-chat,
+.whatsapp-group {
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+
+    background: #20c978;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 34px;
+
+    z-index: 9999;
+}
+
+/* WhatsApp Chat - LEFT BOTTOM */
+.whatsapp-chat {
+    left: 15px;
+    bottom: 25px;
+}
+
+/* WhatsApp Group - RIGHT ABOVE */
+.whatsapp-group {
+    right: 15px;
+    bottom: 115px;
+}
+
+/* + sign */
+.group-small {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    font-size: 15px;
+    font-weight: bold;
+}
 }
