@@ -7,46 +7,39 @@ function verifyInternship() {
 
     if (id === "10720") {
 
-        result.innerHTML = `
+      result.innerHTML = `
 
-            <div class="success">
-                Verification successful.
-            </div>
+    <div class="success">
+        Verification successful.
+    </div>
 
-            <table class="details-table">
+    <div class="table-scroll">
 
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Domain</th>
-                </tr>
+        <table class="details-table">
 
-                <tr>
-                    <td>IPI#10720</td>
-                    <td>YASH DHIMAN</td>
-                    <td>Python Programming</td>
-                </tr>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Domain</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Total Duration</th>
+            </tr>
 
-            </table>
+            <tr>
+                <td>IPI#10720</td>
+                <td>YASH DHIMAN</td>
+                <td>Python Programming</td>
+                <td>08-06-2026</td>
+                <td>22-07-2026</td>
+                <td>6 WEEKS</td>
+            </tr>
 
-            <table class="details-table">
+        </table>
 
-                <tr>
-                    <th>Domain</th>
-                    <th>Start Date</th>
-                    <th>End Date</th>
-                    <th>Total Duration</th>
-                </tr>
+    </div>
 
-                <tr>
-                    <td>Python Programming</td>
-                    <td>08-06-2026</td>
-                    <td>22-07-2026</td>
-                    <td>6 WEEKS</td>
-                </tr>
-
-            </table>
-        `;
+`;
 
     } else {
 
