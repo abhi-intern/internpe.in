@@ -515,4 +515,34 @@ footer p {
 .socials a:hover {
     color: white !important;
 }
+    /* MOBILE TABLE SCROLL */
+
+.table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll .details-table {
+    min-width: 750px;
+    width: 750px;
+    table-layout: auto;
+}
+
+.table-scroll {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll .details-table {
+    min-width: 750px;
+    width: 750px;
+    table-layout: auto;
+}
+
+.table-scroll .details-table th,
+.table-scroll .details-table td {
+    white-space: nowrap;
+}
 }
